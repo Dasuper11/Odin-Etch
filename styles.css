@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display:flex;
+    background-color: rgb(179, 179, 179);
+    align-items: center;
+    flex-direction: column;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sketch_container{
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height:400px;
+    flex-shrink: 0;
+
+}
+#btn_container{
+    display: flex;
+}
